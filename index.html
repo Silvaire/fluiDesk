@@ -1,0 +1,514 @@
+<html lang="en" class="js-focus-visible" data-js-focus-visible=""><head>
+    <title>FluiDesk | Coworking &amp; Shared Offices in One Pass | Asia</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="max-age=2592000, public">
+    <meta name="description" content="One powerful pass to access top coworking spaces, shared offices, hot desks &amp; meeting rooms in Asia. Unlimited check ins, one monthly price &amp; trusted by top CEOs.">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css" async="" defer="">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" async="" defer="">
+    <link rel="stylesheet" href="assets/css/slick.css" async="" defer="">
+    <link rel="stylesheet" href="assets/css/slick-theme.css" async="" defer="">
+    <link rel="stylesheet" href="assets/css/all.min.css" async="" defer="">
+    <link rel="stylesheet" href="assets/css/style.css" async="" defer="">
+    <link rel="stylesheet" href="assets/css/chosen.min.css" async="" defer="">
+
+    <style type="text/css">
+	.footer-menu a {
+    margin: 0 1.2rem !important;
+}
+
+    .news_bar  {
+    background: #FF865E;
+    }
+p.news_font {
+    padding-top: 2px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2px;
+	font-size: 13px !important;
+    }
+        .btn-default:focus {
+            background-color:#A2D2FF;
+        }
+        .error {
+            font-size:13px!important;
+        }
+        .my-location-map-mobile {
+            height: 200px;
+        }
+        .my-location-banner {
+            overflow: visible;
+        }
+        .emailmargin{
+           padding-top: 15px;
+        }
+        .error {
+            /* color:red!important; */
+        }
+        .largemodel {
+            padding-top: 25%!important;
+            padding-bottom: 25%!important;
+        }
+        a:focus { 
+            color:#2e2d2b!important;
+        }
+        .mobile-show {
+            display:none!important;
+        }
+        
+        .chosen-container-single .chosen-single {
+            height:50.3px!important;
+            background-color: #f7f7f7;
+            position: relative;
+            display: block;
+            overflow: hidden;
+            padding: 0 0 0 8px;
+            height: 25px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            background-clip: padding-box;
+            box-shadow: none!important;
+            color: #444;
+            text-decoration: none;
+            white-space: nowrap;
+            line-height: 3.5;
+        }
+        
+        @media only screen and (min-width: 1950px) {
+            .chosen-container-single .chosen-single {
+                height:49.5px!important;
+            }
+        }
+        
+        @media only screen and (min-width: 2000px) {
+            .chosen-container-single .chosen-single {
+                height:50px!important;
+            }
+        }
+        
+        .chosen-container-single .chosen-single div b {
+            display: none;
+            width: 0%;
+            height: 0%;
+            background: none;
+        }
+        .chosen-container .chosen-results::-webkit-scrollbar {
+            width: 0px;
+        }
+        .chosen-container .chosen-results {
+            margin:0px;
+            padding:0px;
+        }
+        .chosen-container .chosen-results li.active-result {
+            min-height:25px;
+        }
+        .chosen-container-single .chosen-single {
+            background:#fff!important;
+        }
+        
+        .chosen-single > span, .active-result {
+            font-weight: bold;
+            color:#a1a1a1!important;
+        }
+        
+        .btn-dark.focus, .btn-dark:focus {
+            color: #fff!important;
+            background-color: #495057!important;
+        }
+        .btn-dark:hover {
+            color: #fff!important;
+            background-color: #495057!important;
+        }
+        
+        .passwordhideshowbtn {
+            font-size: 14.5px!important;
+            cursor: pointer;
+            position: absolute;
+            top: 120px;
+            right: 70px;
+            line-height: 45px;
+            font-size: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+            color: #777474;
+        }
+      
+        
+        footer a:focus {
+            color: #fff!important;
+        }
+        
+        .social-ions li a.bg-yellow:focus {
+            color:#2b2b2e!important;
+        }
+        
+        .freetrial-color {
+            border:none!important;
+            background-color:#FF865E!important;
+            color:#fff!important;
+        }
+        .freetrial-color:hover, .freetrial-color:focus {
+            border:none!important;
+            background-color:#FF865Ebf!important;
+            color:#fff!important;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .passwordhideshowbtn {
+                top: 120px;
+                font-size: 15px!important;
+                right: 75px;
+            }
+            
+        }
+        
+        @media only screen and (max-width: 760px) {
+            .chosen-container-single .chosen-single {
+                height:3.75rem!important;
+                line-height:3.5rem!important;
+            }
+            .largemodel {
+                padding-top: 50%!important;
+            }
+            .passwordhideshowbtn {
+                top: 85px;
+                font-size: 15px!important;
+                right: 30px;
+            }
+            .mobile-show {
+                display:flex!important
+            }
+            
+        }
+        @media only screen and (max-width: 570px) {
+            .mob-center {
+                text-align:center!important;    
+            }   
+        }
+        .join_nav.active {
+            background-color:#f8f9fa!important;
+            border-color: #f8f9fa!important;
+            border-bottom:1px solid #f8f9fa!important;
+        }
+        .join_nav.active:hover {
+            color: #000!important;
+            background-color: #A3D2FF!important;
+            border-color: #dae0e5!important;
+            border-bottom:1px solid #f8f9fa!important;
+        }
+        .footer-bg-yellow:hover {
+            background-color:#A3D2FF!important;
+        }
+        .highlight-border-top {
+            border-top: #FF865E 1px solid;
+        }
+        .highlight-border-bottom {
+            border-bottom: #FF865E 2px solid;
+        }
+        .highlight-border-left {
+            border-left: #FF865E 2px solid;
+        }
+        .highlight-border-right {
+            border-right: #FF865E 2px solid;
+        }
+    </style>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/mkg_fav.png">
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+<style type="text/css">
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+}</style></head>
+
+<body>
+
+  
+    <header class="bg-yellow" id="myNav">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light pl-0 pr-0 pt-3 pb-3">
+                <a class="navbar-brand" href="/"><img alt="fluidesk-logo" title="FluiDesk" src="assets/images/logo.png"></a>
+                <a class="nav-link text-uppercase btn btn-light mobile-only nav-btn font-semibold font-18 btn-height-60" data-toggle="modal" data-target="#exampleModal" href="#">Join now</a>
+                <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="ml-auto navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="mailto:contact@fluidesk.club">Contact Us</a>
+                        </li>
+                        <li class="nav-item mobile-hide">
+                            <a class="nav-link join_nav text-uppercase btn btn-light " data-toggle="modal" data-target="#exampleModal" href="#">Join now</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+  
+    <!-- Modal Starts -->
+    <!-- Login Modal -->
+    <div class="modal fade login-popup text-center" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-yellow border-0">
+                <div class="modal-header py-3">
+                    <h5 class="modal-title text-center py-2 my-1">Hello</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body pt-5 pb-5">
+                    <form class="py-2" method="POST" id="loginform">
+                        <div class="form-group">
+                            <input type="email" class="border-0 form-control text-center" id="email" name="email" aria-describedby="emailHelp" placeholder="Email Address" required="">
+                        </div>
+                        <button type="submit" class="form-control mb-3 w-100 border-0 btn btn-dark">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Page Content Starts -->
+    <style>
+    .threeline {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        min-height:53px;
+    }
+    .oneline {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+    }
+    .freetrial-text {
+        font-size:15px!important;
+    }
+    .desktop-remove-padding {
+        padding:2rem 0!important;
+    }
+    .luxicon {
+        margin-left:7px;
+        margin-top:10px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .mobile-remove-margin {
+            margin:0px!important;
+        }
+        .mobile-h1-font-size {
+            font-size:29px!important;
+        }
+        .mobile-remove-margin-item-center {
+            margin:auto!important;
+        }
+        .freetrial-text {
+            font-size:13px!important;
+        }   
+        .desktop-remove-padding {
+            padding:3rem 0!important;
+        }
+        .luxicon {
+            margin-left:4px;
+            margin-top:10px;
+        }
+        .luxbelowtext {
+            margin-top:-7px;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        .luxbelowtext {
+            margin-top:36px;
+        }
+    }
+    @media only screen and (max-width: 350px) {
+        .luxbelowtext {
+            margin-top:80px;
+        }
+    }
+</style>
+<div data-spy="scroll" data-target="#myNav" data-offset="0">
+    <section id="homeBanner" class="banner banner-home">
+        <div class="container mt-5 mobile-remove-margin">
+            <center>
+                <div class="banner-inner d-flex mb-5 desktop-remove-padding">
+                    <div class="m-5 mobile-remove-margin-item-center">
+                        <div class="p-4" style="letter-spacing: 1px;">
+                            <div class="mb-4 pt-3">
+                                <h1 class="text-center mobile-h1-font-size">Workspace freedom <br> in one Pass.</h1>
+                            </div>
+                            <!-- <h3 class="font-yellow banner-sub-header mb-3"></h3> -->
+                            <h3 class="font-yellow mb-3"></h3>
+                            <!-- <p class="mobile-hide pb-2">Work from anywhere. Cancel anytime. -->
+                            <p class="pb-2" style="font-weight: bold;">Work from anywhere. Cancel anytime.</p>
+
+                                                        <div class="banner-bottom mt-4 pb-4">
+                                <button type="button" style="width:auto;" onclick="freetrialform()" class="freetrial-color form-control mb-0 border-0 text-capitalize font-bold btn font-18 rounded-right btn-default">Start Free Trial</button>
+                            </div>
+                            <p class="mb-0 px-3 freetrial-text" style="font-weight: bold;">Try the entire FluiDesk network. <br> Free for 7 days.</p>
+                                                        
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+    </section>
+
+    <section class="dumybuttons py-3">
+
+    </section>
+
+    <section id="howItWorks" class="workspaces">
+
+        <div class="container">
+            <h3 class="text-center mb-4 mb-5 pt-4">Get Access to Hot Desks Everywhere</h3>
+            <div class="workspaces-inner mt-4 mb-3">
+                <div class="row mx-0 d-flex">
+                    <div class="col-md-6 px-0">
+                        <img class="w-100 lazyload" src="assets/images/comfy-seats-near.png" data-src="assets/images/comfy-seats-near.png" alt="comfy-seats-near" title="Comfy Seats Near You">
+                    </div>
+                    <div class="col-md-6 px-0  py-3 d-flex align-items-center">
+                        <div class="col-inner">
+                            <h5 class="font-extrabold mb-3">Snug Seats Near You.</h5>
+                            <p>Drop into workspaces in our network across Berlin. Own a seat in every neighbourhood and be productive wherever your day takes you. Exclusive to FluiDesk members. One pass is all you need.</p>
+                            <a href="#" class="font-yellow font-bold d-inline-block">Make yourself comfortable.</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mx-0 d-flex">
+                    <div class="col-md-6 px-0">
+                        <img class="w-100 lazyload" src="assets/images/fresh-coffee.png" data-src="assets/images/fresh-coffee.png" alt="fresh-coffee" title="A Warm Welcome and Fresh Coffee">
+                    </div>
+                    <div class="col-md-6 px-0  py-3 d-flex align-items-center">
+                        <div class="col-inner">
+                            <h5 class="font-extrabold mb-3">A Warm Welcome and Fresh Coffee.</h5>
+                            <p>Let our hosts help you navigate your day. Your membership is packed with perks such as unlimited freshly-brewed coffee and tea so you always stay at your refreshed, revived and focussed best.</p>
+                            <a href="#" class="font-yellow font-bold d-inline-block">Let's get you started.</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mx-0 d-flex workspace-posts">
+                    <div class="col-md-6 px-0">
+                        <img class="w-100 lazyload" src="assets/images/hi-speed-wi-fi.png" data-src="assets/images/hi-speed-wi-fi.png" alt="hi-speed-wi-fi" title="Hi-Speed WiFi and Free Flow Charging">
+                    </div>
+                    <div class="col-md-6 px-0  py-3 d-flex align-items-center">
+                        <div class="col-inner">
+                            <h5 class="font-extrabold mb-3">Fast WiFi and Free Flow Charging.</h5>
+                            <p>Your philosophy is work hard and play harder and we've got the internet speeds and power sockets to match. Whether you're in-the-zone working or in between meetings, never get caught offline or out of juice. Our supplies are bottomless.</p>
+                            <a href="#" class="font-yellow font-bold d-inline-block">Plug-in today.</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mx-0 d-flex">
+                    <div class="col-md-6 px-0">
+                        <img class="w-100 lazyload" src="assets/images/friendly-prices.png" data-src="assets/images/friendly-prices.png" alt="friendly-prices" title="Friendly Prices">
+                    </div>
+                    <div class="col-md-6 px-0  py-3 d-flex align-items-center">
+                        <div class="col-inner">
+                            <h5 class="font-extrabold mb-3">Sane Prices.</h5>
+                            <p>So we heard about your overpriced city pains. We're here to change all of that with our handpicked collection of beautiful workspaces in the most desirable Berlin neighbourhoods, just for you and our tight knit community.</p>
+                            <a href="#" class="font-yellow font-bold d-inline-block">Stay, you're in great company.</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+                        <div class="button mt-5 pt-2 pb-5">
+                <a class="btn btn-default btn-xxl box-shadow freetrial-color" onclick="freetrialform()">GET STARTED FREE FOR 7 DAYS</a>
+            </div>
+                        
+        </div>
+    </section>
+
+
+    <!-- Page Content Ends -->
+    <footer>
+        <div class="footer-container d-flex align-items-center  flex-wrap">
+            <div class="logo">
+                <a href="/"><img alt="fluidesk-logo" title="FluiDesk" src="assets/images/logo_footer.png"></a>
+            </div>
+            <div class="footer-menu">
+                <ul class="list-unstyled d-flex mobile-hide font-semibold footer_nav">
+                    <li><a href="mailto:contact@fluidesk.club" data-toggle="modal" data-target="#exampleModal" href="#">Join now</a></li>
+                    <li><a href="mailto:contact@fluidesk.club">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom ">
+            <div class="footer-bottom-inner mobile-hide footer-container d-flex align-items-center justify-content-between">
+                <div class="copy-right m-0">
+                    <p class="m-0">
+                        © 2021. FluiDesk Limited. All Rights Reserved.
+                    </p>
+                </div>
+                
+            </div>
+            <div class="footer-bottom-inner mobile-show footer-container d-flex align-items-center justify-content-between">
+                <div class="social-icons">
+                	<ul class="list-unstyled d-flex flex-wrap">
+                        <li><a href="mailto:contact@dluidesk.club" target="_blank"><i class="fa fa-envelope"></i></a></li> &nbsp; &nbsp; &nbsp; &nbsp; 
+                        <li><a class="emailmargin font-regular font-13" href="mailto:contact@fluidesk.club" target="_blank" style="background: none;">contact@fluidesk.club</a></li>
+                    </ul>
+                </div>
+                <br>
+                <div class="copy-right m-0">
+                    <p class="m-0">
+                        © 2021. FluiDesk Limited. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div> 
+    </footer>
+
+
+
+<script src="assets/js/popper.min.js" defer=""></script>
+<script src="assets/js/jquery.validate.js" defer=""></script>
+<script src="assets/js/validator.min.js" defer=""></script>
+<script src="assets/js/jquery-ui.min.js" defer=""></script>
+<script src="assets/js/bootstrap.min.js" defer=""></script>
+<script src="assets/js/slick.min.js" defer=""></script>
+
+<script src="assets/js/custom.js" defer=""></script>
+<script src="assets/js/chosen.jquery.min.js" defer=""></script>
+
+</body></html>
