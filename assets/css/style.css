@@ -398,7 +398,6 @@ div#newsLetter .modal-body form p {
 background: rgba(255, 255, 255, 0.85);
 }
 .login-popup .modal-body {
-    background: url(../images/popup-back.png) no-repeat;
     background-size: cover;
     background-position: center center;
     padding:0 4.688rem;

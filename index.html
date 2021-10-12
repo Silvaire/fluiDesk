@@ -21,7 +21,10 @@
     .news_bar  {
     background: #FF865E;
     }
-p.news_font {
+    .modal-title {
+        font-size: 25px !important;
+    }
+    p.news_font {
     padding-top: 2px;
     color: #fff;
     font-weight: bold;
@@ -249,7 +252,19 @@ p.news_font {
   font-family: 'Circular-Loom';
 
   src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
-}</style></head>
+}</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9RKMC5LBW7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9RKMC5LBW7');
+</script>
+
+</head>
 
 <body>
 
@@ -258,11 +273,11 @@ p.news_font {
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light pl-0 pr-0 pt-3 pb-3">
                 <a class="navbar-brand" href="/"><img alt="fluidesk-logo" title="FluiDesk" src="assets/images/logo.png"></a>
-                <a class="nav-link text-uppercase btn btn-light mobile-only nav-btn font-semibold font-18 btn-height-60" data-toggle="modal" data-target="#exampleModal" href="#">Join now</a>
+                <a class="nav-link text-uppercase btn btn-light mobile-only nav-btn font-semibold font-18 btn-height-60" data-toggle="modal" data-target="#exampleModal" href="#" data-button-source="header">Join now</a>
                 <div class=" collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="ml-auto navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="mailto:contact@fluidesk.club">Contact Us</a>
+                            <a class="nav-link text-uppercase" href="mailto:fluidesk@silvain.space">Contact Us</a>
                         </li>
                         <li class="nav-item mobile-hide">
                             <a class="nav-link join_nav text-uppercase btn btn-light " data-toggle="modal" data-target="#exampleModal" href="#">Join now</a>
@@ -280,17 +295,20 @@ p.news_font {
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content bg-yellow border-0">
                 <div class="modal-header py-3">
-                    <h5 class="modal-title text-center py-2 my-1">Hello</h5>
+                    <h5 class="modal-title text-center py-2 my-1">We are launching soon!<br/>Be among the limited first ones to join us on launch day by leaving your email below.</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
                 <div class="modal-body pt-5 pb-5">
-                    <form class="py-2" method="POST" id="loginform">
+                    <form class="py-2 mailchimp" action="https://gmail.us5.list-manage.com/subscribe/post?u=882498e481494e0edea826798&amp;id=285ff02f18" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate">
                         <div class="form-group">
-                            <input type="email" class="border-0 form-control text-center" id="email" name="email" aria-describedby="emailHelp" placeholder="Email Address" required="">
+                            <input type="email" class="border-0 form-control text-center mailchimp-input" id="mce-EMAIL" name="EMAIL" aria-describedby="emailHelp" placeholder="Email Address" required="required" value="">
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_882498e481494e0edea826798_285ff02f18" tabindex="-1" value="">
+                            </div>
                         </div>
-                        <button type="submit" class="form-control mb-3 w-100 border-0 btn btn-dark">Login</button>
+                        <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="form-control mb-3 w-100 border-0 btn btn-dark" value="Join the club">
                     </form>
                 </div>
             </div>
@@ -379,7 +397,7 @@ p.news_font {
                             <p class="pb-2" style="font-weight: bold;">Work from anywhere. Cancel anytime.</p>
 
                                                         <div class="banner-bottom mt-4 pb-4">
-                                <button type="button" style="width:auto;" onclick="freetrialform()" class="freetrial-color form-control mb-0 border-0 text-capitalize font-bold btn font-18 rounded-right btn-default">Start Free Trial</button>
+                                <button type="button" style="width:auto;" class="freetrial-color form-control mb-0 border-0 text-capitalize font-bold btn font-18 rounded-right btn-default" data-toggle="modal" data-target="#exampleModal" data-button-source="hero">Start Free Trial</button>
                             </div>
                             <p class="mb-0 px-3 freetrial-text" style="font-weight: bold;">Try the entire FluiDesk network. <br> Free for 7 days.</p>
                                                         
@@ -445,7 +463,7 @@ p.news_font {
                     <div class="col-md-6 px-0  py-3 d-flex align-items-center">
                         <div class="col-inner">
                             <h5 class="font-extrabold mb-3">Sane Prices.</h5>
-                            <p>So we heard about your overpriced city pains. We're here to change all of that with our handpicked collection of beautiful workspaces in the most desirable Berlin neighbourhoods, just for you and our tight knit community.</p>
+                            <p>So we heard about your overpriced city pains. We're here to change all of that with our handpicked collection of beautiful workspaces in the most desirable Berlin neighbourhoods, just for you and our comfy club.</p>
                             <a href="#" class="font-yellow font-bold d-inline-block">Stay, you're in great company.</a>
                         </div>
                     </div>
@@ -453,7 +471,7 @@ p.news_font {
 
             </div>
                         <div class="button mt-5 pt-2 pb-5">
-                <a class="btn btn-default btn-xxl box-shadow freetrial-color" onclick="freetrialform()">GET STARTED FREE FOR 7 DAYS</a>
+                <a href="#" class="btn btn-default btn-xxl box-shadow freetrial-color" data-toggle="modal" data-target="#exampleModal" data-button-source="page-end">GET STARTED FREE FOR 7 DAYS</a>
             </div>
                         
         </div>
@@ -468,8 +486,8 @@ p.news_font {
             </div>
             <div class="footer-menu">
                 <ul class="list-unstyled d-flex mobile-hide font-semibold footer_nav">
-                    <li><a href="mailto:contact@fluidesk.club" data-toggle="modal" data-target="#exampleModal" href="#">Join now</a></li>
-                    <li><a href="mailto:contact@fluidesk.club">Contact Us</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#exampleModal">Join now</a></li>
+                    <li><a href="mailto:fluidesk@silvain.space">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -486,7 +504,7 @@ p.news_font {
                 <div class="social-icons">
                 	<ul class="list-unstyled d-flex flex-wrap">
                         <li><a href="mailto:contact@dluidesk.club" target="_blank"><i class="fa fa-envelope"></i></a></li> &nbsp; &nbsp; &nbsp; &nbsp; 
-                        <li><a class="emailmargin font-regular font-13" href="mailto:contact@fluidesk.club" target="_blank" style="background: none;">contact@fluidesk.club</a></li>
+                        <li><a class="emailmargin font-regular font-13" href="mailto:fluidesk@silvain.space" target="_blank" style="background: none;">Send us an email</a></li>
                     </ul>
                 </div>
                 <br>

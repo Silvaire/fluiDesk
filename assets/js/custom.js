@@ -1146,5 +1146,10 @@ function registerElements(elements, exampleName) {
 
 }
 
-
-
+$(function(){
+    $('[data-button-source]').click(function(){
+        gtag('event', 'join-click', {
+            'source': $(this).data('source')
+        });
+    });
+});
